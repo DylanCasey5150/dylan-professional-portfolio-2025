@@ -131,7 +131,6 @@
 .project-card {
   display: flex;
   flex-wrap: wrap;
-  background-color: #0e1a25;
   margin-bottom: 60px;
   padding-top:40px;
   border-bottom: 1px solid #333;
