@@ -1,0 +1,155 @@
+/* Reset + base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #0a192f;
+    color: #ccd6f6;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    padding: 2rem;
+  }
+  
+  a {
+    color: #64ffda;
+    text-decoration: none;
+  }
+  
+  .container {
+    max-width: 1044px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+  
+  .container_2{
+      max-width: 100%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 2.5rem;
+    }
+
+    .container_3{
+      max-width: 1044px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 2.5rem;
+    }
+  
+
+ 
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-top: 0.25rem;
+  }
+  
+  h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #64ffda;
+  }
+
+  strong{
+    color:white;
+  }
+
+  p.project-title{
+    padding-top:20px;
+  }
+  
+  .intro p {
+    margin-top: 1rem;
+    max-width: 600px;
+  }
+  
+  .socials {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .socials img {
+    width: 24px;
+    height: 24px;
+    filter: invert(80%);
+  }
+  
+  .experience,
+  .about,
+  .skills,
+  .projects,
+  .contact {
+    border-top: 1px solid #233554;
+    padding-top: 1.5rem;
+  }
+
+  .about_header{
+    color: #64ffda;
+  }
+  
+  .skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 0.5rem;
+  }
+  
+  .skill-tags span {
+    background: #112240;
+    padding: 0.4rem 0.8rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    border: 1px solid #233554;
+  }
+
+  img.project-images{
+    width:200px;
+    height:150px;
+    padding-top:10px;
+  }
+  
+  .contact a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-weight: bold;
+  }
+
+
+
+  @media only screen and (min-width: 640px)  { 
+  
+    .container_2{
+      max-width: 1044px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+     
+      align-items:flex-start;
+     
+    }
+    .experience{
+      width:100%;
+      
+    }
+
+    .about{
+      width:100%
+    }
+
+  
+
+  }
+
